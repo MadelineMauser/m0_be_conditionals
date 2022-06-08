@@ -35,9 +35,31 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+
+## The code on lines 12-16 is an if statement that evaluates the value of door_choice and assigns the value of bear_clothing based
+# on the value of door_choice.
+
 # 2. What variable has a new value assigned to it after the first if statement executes?
+
+## bear_clothing
+
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+
+## "scarf"
+
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+
+## The code on lines 25-33 is another if statement that evaluates the value of variable bear_choice and prints out text
+# depending on the value. The first two conditions print out a combination of predetermined string as well as the value of bear_clothing.
+
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+
+## The final output would be the output "You run as fast as you can into the next room. It's full of snakes!".
+
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+
+## "You tell the bear the hat is too small and it starts to cry!"
+
 # 7. What is your favorite ending?
+
+## I like the else condition where you stay with the bear and become friends.
