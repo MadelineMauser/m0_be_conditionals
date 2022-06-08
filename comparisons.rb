@@ -23,24 +23,32 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts "Is number_students less than or equal to 20?", number_students <= 20
+
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 
 #-------------------
@@ -54,20 +62,29 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# The code compares whether 4 is less than 9 and then prints the evaluation, which will be true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# The code assigns the variable books to 3, an integer. It then compares whether 4 is less than the value of books
+# and prints the evaluation, which is false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This code assigns the integer variable friends to 6, then assigns the integer variable siblings to 2.
+# It then compares whether the value of friends is greater than the value of siblings and prints the result,
+# which is true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# This code assigns the integer variable attendees to 9, then assigns the integer variable meals to 8.
+# It then compares whether the value of attendees is not equal to the value of meals and prints the result,
+# which is true
 
 
 #-------------------
@@ -90,15 +107,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+loves_to_play && age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line evaluated to true since both conditions are true;
+# loves_to_play is set to true, and age <= 1 is true
